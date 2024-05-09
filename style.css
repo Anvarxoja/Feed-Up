@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a {
+    color: white
+}
+
+header {
+    width: 100%;
+    height: 880px;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.center ul {
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: larger;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.left {
+    width: 30%;
+    height: 80px;
+}
+
+.logo {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(56, 56, 56);
+}
+
+.logo img {
+    width: 90%;
+    height: 100%;
+}
+
+.center {
+    width: 70%;
+    height: 80px;
+}
+
+.right ul {
+    gap: 20px;
+}
+
+.right {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 10%;
+    height: 80px;
+}
+
+.section1 {
+    width: 100%;
+    height: 600px;
+}
+
+.menu-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-page div {
+    width: 20%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+
+
+}
+
+.section1 h1 {
+    font-size: xxx-large;
+    margin-left: 140px;
+}
+
+.section1 h2 {
+    font-size: large;
+}
+
+.section2 {
+    width: 100%;
+    height: 1200px;
+}
+
+.Бургеры-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Бургеры-page div {
+    width: 330px;
+    height: 500px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.section2 h1 {
+    font-size: xxx-large;
+    margin-left: 125px;
+}
+
+.section2 h3 {
+    font-size: xx-large;
+}
+
+.footer {
+    width: 100%;
+    height: 240px;
+}
+
+.footer-navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    border: 1px solid grey;
+    background-color: rgb(56, 56, 56);
+}
+
+.footer-call {
+    width: 100%;
+    height: 160px;
+    border: 1px solid grey;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.footer-https {
+    width: 100%;
+    height: 50px;
+    border: 1px solid grey;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    align-items: center;
+    padding-left: 13%;
+    color: white;
+}
+
+.footer-logo {
+    width: 40%;
+    height: 100%;
+}
+
+.footer-logo img {
+    width: 90%;
+    height: 100%;
+}
+
+.footer-munu ul {
+    font-size: larger;
+    color: white;
+    gap: 90px;
+    display: flex;
+    justify-content: end;
+}
+
+.call {
+    font-size: small;
+    padding-left: 15px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 80px;
+    height: 4px;
+    background-color: gold;
+}
